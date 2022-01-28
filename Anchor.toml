@@ -1,0 +1,12 @@
+[programs.localnet]
+sighduck = "E2uTyMCm7XXnykZ4BSixXgQsTYVhjcNc1ahHVMhVJt1S"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/shashank/my.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
